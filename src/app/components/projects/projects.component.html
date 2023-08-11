@@ -1,0 +1,34 @@
+
+
+
+<div class="sc-fourth" id="projects">
+  <h1 class="tt tt-pro">Proyectos</h1>
+
+  <div class="pg-grid">
+
+    <div *ngFor="let card of projectCards" class="ct-pro">
+      <h3 class="pro-tt">{{ card.title }}</h3>
+      <p class="pro-pg">{{ card.description }}</p>
+      <ul class="tags-ct">
+        <li *ngFor="let tag of card.tags" class="tag">{{ tag }}</li>
+      </ul>
+
+      <figure class="ct-social-pro">
+        <a [href]="card.urlGit" target="_blank">
+          <img src="assets/svgs/github.svg" alt="GitHub icon" class="img-pro">
+        </a>
+
+        <a [href]="card.url" target="_blank">
+          <img src="assets/svgs/link.svg" alt="link icon" class="img-pro">
+        </a>
+      </figure>
+    </div>
+
+  </div>
+
+  <a href="https://github.com/davidlynnDP" target="_blank" class="cta-projects">
+    <h1 class="tt tt-more">Ver mas proyectos</h1>
+  </a>
+
+
+</div>

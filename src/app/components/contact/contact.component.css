@@ -1,0 +1,69 @@
+
+
+.sc-fifth {
+  margin: 0 100px 200px;
+}
+
+.tt {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.tt-contact {
+  text-align: center;
+}
+
+.pg-contact {
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.pg-black {
+  font-weight: 700;
+}
+
+.ct-contact-icons {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.img-contact {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.img-contact:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+  .sc-fifth {
+    margin: 0 35px 200px;
+  }
+}
+
+@media screen and (max-width:350px){
+  .pg-contact {
+    font-size: 1rem;
+  }
+
+  .img-contact {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+
+}
+

@@ -1,0 +1,41 @@
+
+
+<div class="sc-third">
+  <h1 class="tt">Habilidades</h1>
+
+  <h2 class="tt tt-sec">Principales</h2>
+
+  <div class="russel">
+
+    <figure *ngFor="let skill of mainSkills" class="ct-skill">
+      <img [src]="skill.src" [alt]="skill.alt" class="img-skill">
+      <p class="p-skill">{{ skill.paragraph }}</p>
+    </figure>
+
+  </div>
+
+
+  <h2 class="tt tt-sec">Secundarias</h2>
+
+  <div class="russel">
+
+    <figure *ngFor="let skill of secondarySkills" class="ct-skill">
+      <img [src]="skill.src" [alt]="skill.alt" class="img-skill">
+      <p class="p-skill">{{ skill.paragraph }}</p>
+    </figure>
+
+  </div>
+
+  <h2 class="tt tt-sec">Adicionales</h2>
+
+  <div class="russel">
+
+    <figure *ngFor="let skill of additionalSkills" class="ct-skill">
+      <img [src]="skill.src" [alt]="skill.alt" class="img-skill">
+      <p class="p-skill">{{ skill.paragraph }}</p>
+    </figure>
+
+  </div>
+
+
+</div>

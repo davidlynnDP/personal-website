@@ -1,0 +1,25 @@
+
+
+.line-rule {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 95%;
+  height: 1px;
+  background-color: black;
+}
+
+.shadow-down {
+  box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
+}
+
+.shadow-up {
+  box-shadow: 0px -10px 5px 0px rgba(0,0,0,0.5);
+}
+
+.rombo {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
