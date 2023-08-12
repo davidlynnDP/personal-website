@@ -25,11 +25,11 @@
 }
 
 .ct-pro {
-  background-color: gainsboro;
+  background-color: #bcbaa3;
   width: 230px;
   height: 270px;
   padding: 10px 20px;
-  border: 1px solid black;
+  border: 2px solid #a5a38a;
   border-radius: 10px;
 
   display: grid;
@@ -66,9 +66,9 @@
   width: 60px;
   height: 15px;
   text-align: center;
-  background-color: white;
+  background-color: #e9e8d4;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1.5px solid #a5a38a;
   font-size: 0.625rem;
   font-weight: 600;
 }
@@ -94,8 +94,8 @@
 }
 
 .cta-projects {
-  margin-top: 35px;
-  width: 25%;
+  margin-top: 50px;
+  width: 200px;
   display: block;
   text-decoration: none;
   color: black;

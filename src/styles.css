@@ -14,17 +14,18 @@
 
 html, body {
   scroll-behavior: smooth;
+  background: #ffffec;
 }
 
 
 body::-webkit-scrollbar{
-  background: #fff;
+  background: #ffffec;
   width: 12px;
 }
 
 body::-webkit-scrollbar-thumb{
-  background: black;
-  border: 3px solid #fff;
+  background: #a5a38a;
+  border: 3px solid #ffffec;
   border-radius: 8px;
 }
 
